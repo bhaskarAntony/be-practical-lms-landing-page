@@ -313,7 +313,7 @@ function Courses() {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const localResponse = await axios.get('http://localhost:4000/api/courses');
+        const localResponse = await axios.get('https://school-backend-lms-2.onrender.com/api/courses');
         const localCourses = Array.isArray(localResponse.data) ? localResponse.data : [];
 
         const codedamnResponse = await axios.post('https://backend.codedamn.com/api/public/get-all-courses', {

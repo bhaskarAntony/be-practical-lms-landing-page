@@ -48,7 +48,7 @@ function CourseDetails() {
     const fetchCourseDetails = async () => {
       try {
         // Fetch course details
-        const courseResponse = await axios.get(`http://localhost:4000/api/courses/${id}`);
+        const courseResponse = await axios.get(`https://school-backend-lms-2.onrender.com/api/courses/${id}`);
         const courseData = courseResponse.data;
         setCourseDetails(courseData);
 
