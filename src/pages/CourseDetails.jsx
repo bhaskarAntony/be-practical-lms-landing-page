@@ -397,8 +397,8 @@ function CourseDetails() {
               <h2 className="text-xl font-bold text-gray-900 mb-4">Instructor</h2>
               <div className="flex flex-col md:flex-row items-start bg-gray-50 p-4 rounded-md">
                 <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt="Instructor"
+                  src="https://media.istockphoto.com/id/1223671392/vector/default-profile-picture-avatar-photo-placeholder-vector-illustration.jpg?s=612x612&w=0&k=20&c=s0aTdmT5aU6b8ot7VKm11DeID6NctRCpB755rA1BIP0="
+                  alt="Be Practical Instructor"
                   className="h-24 w-24 rounded-full mb-4 md:mb-0 md:mr-4"
                 />
                 <div className="flex-1">
